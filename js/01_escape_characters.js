@@ -11,3 +11,9 @@ document.write("01_escape_characters.js is linked")
 
 //4.  Use a console log statement with the escape character \t in the phrase 'This \t is a horizontal tab' to demonstrate the use of the horizontal tab escape character \t
 
+document.write("01_escape_characters.js is linked")
+
+console.log('Don\'t run away');
+console.log('This \\ is a backslash');
+console.log('This \nis a new line');
+console.log('This \tis a horizontal tab');
