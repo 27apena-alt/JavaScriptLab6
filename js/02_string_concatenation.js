@@ -7,4 +7,13 @@ let lastName = "";
 // followed by your first name and last name.  i.e. Hello Jane Smith.  Make sure you add a space 
 // between the firstName and lastName
 
- 
+document.write("02_logical_operators.js is linked")
+
+let isTrue = true;
+let isFalse = false;
+
+console.log(isTrue && isFalse);
+console.log(isTrue || isFalse);
+console.log(!isTrue);
+console.log((10 > 5) && (5 < 3));
+console.log((10 > 5) || (5 < 3));
