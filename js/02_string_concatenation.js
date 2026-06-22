@@ -7,3 +7,9 @@ let lastName = "";
 // followed by your first name and last name.  i.e. Hello Jane Smith.  Make sure you add a space 
 // between the firstName and lastName
 
+document.write("02_string_concatenation.js is linked");
+
+let firstName = "Jane";
+let lastName = "Smith";
+
+console.log("Hello, " + firstName + " " + lastName);
