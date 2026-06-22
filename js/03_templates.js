@@ -9,10 +9,3 @@ document.write("03_templates.js is linked")
 //3.  Use a console log statement and template literals to create a greeting that logs "Hello, firstName 
 // lastName" to the console.  For example, "Hello, Jane Smith!"
 
-document.write("03_if_statements.js is linked")
-
-let age = 18;
-
-if (age >= 18) {
-    console.log("You are eligible to vote.");
-}

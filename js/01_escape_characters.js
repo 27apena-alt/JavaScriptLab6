@@ -11,17 +11,3 @@ document.write("01_escape_characters.js is linked")
 
 //4.  Use a console log statement with the escape character \t in the phrase 'This \t is a horizontal tab' to demonstrate the use of the horizontal tab escape character \t
 
-
-document.write("01_comparison.js is linked")
-
-let x = 10;
-let y = 5;
-
-console.log(x > y);
-console.log(x < y);
-console.log(x >= 10);
-console.log(y <= 5);
-console.log(x == "10");
-console.log(x === "10");
-console.log(x != y);
-console.log(x !== "10");

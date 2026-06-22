@@ -42,3 +42,4 @@ console.log("text2 is a " + typeof(text2))
 // Log the result and its data type to the console.
 
 //13.  Use the toString method to convert num1 to a string.  Log the result and its data type to the console.
+
