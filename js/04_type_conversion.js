@@ -43,3 +43,35 @@ console.log("text2 is a " + typeof(text2))
 
 //13.  Use the toString method to convert num1 to a string.  Log the result and its data type to the console.
 
+document.write("04_type_conversion.js is linked");
+let num1 = 5;
+console.log("num1 is a " + typeof(num1))
+let num2 = 3;
+console.log("num2 is a " + typeof(num2))
+let text1 = "10";
+console.log("text1 is a " + typeof(text1))
+let text2 = "22";
+console.log("text2 is a " + typeof(text2))
+
+console.log(num1 * text1);
+console.log(typeof(num1 * text1));
+
+console.log(text1 * text2);
+console.log(typeof(text1 * text2));
+
+console.log(text1 + text2);
+console.log(typeof(text1 + text2));
+
+console.log(num1 + num2);
+console.log(typeof(num1 + num2));
+
+console.log(text1 + num1);
+console.log(typeof(text1 + num1));
+
+let converted1 = Number(text1);
+console.log(converted1, typeof(converted1));
+
+console.log(converted1 + num1);
+console.log(typeof(converted1 + num1));
+
+console.log(num1.toString(), typeof(num1.toString()));
