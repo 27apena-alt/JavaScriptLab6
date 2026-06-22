@@ -9,3 +9,9 @@ document.write("03_templates.js is linked")
 //3.  Use a console log statement and template literals to create a greeting that logs "Hello, firstName 
 // lastName" to the console.  For example, "Hello, Jane Smith!"
 
+document.write("03_templates.js is linked")
+
+let firstName = "Jane";
+let lastName = "Smith";
+
+console.log(`Hello, ${firstName} ${lastName}!`);
